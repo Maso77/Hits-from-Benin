@@ -1,0 +1,111 @@
+body{
+    color: black;
+    background: fixed no-repeat rgb(45, 58, 63);
+    background-size: cover;
+    opacity:unset;
+    padding: 0px 20px;
+
+}
+
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+    background: fixed url("../../Images/gradienta-1LirzgcpY2c-unsplash2.jpg");
+    border: 2px inset;
+    height:auto;
+    border-radius: 6px;
+
+}
+main{
+    margin:10px 0px;
+}
+
+
+footer{
+    color:black;
+    background:fixed url("../../Images/gradienta-1LirzgcpY2c-unsplash2.jpg");
+    border: 2px inset;
+    border-radius: 6px;
+    height: auto;
+    margin-top: 15px;
+}
+
+
+
+
+ul{
+    display: flex;
+    list-style:none;
+}
+
+
+
+a{
+    color:black;
+    text-decoration: none;
+    }
+    
+    a:hover{
+    color:blue;
+    }
+    
+    a:focus{
+    background-color:black;
+    }
+    
+    a:active{
+        color:green;
+    }
+    
+    a:visited{
+        color:black;
+    }
+    
+    
+
+
+
+
+
+.menu{
+
+}
+.menulist{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 25px;
+
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    
+}
+
+
+
+.footlist{
+    display: flex;
+    justify-content:center;
+    align-items:flex-start;
+    gap: 25px;
+
+    font-size:25px;
+}
+
+
+
+.guestside{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+.alb{
+    display: flex;
+    flex-direction: column;
+    gap:10px
+}
